@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Store Locator</title>
+
+  <--!<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>-->
+
+  <!-- User-generated js -->
+  <script>
+
+    $(function() {
+        
+    });
+
+  </script>
+</head>
+<body>
+  <!-- Home -->
+  <div data-role="page" id="page1">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Verizon Branch Locator
+          </h3>
+      </div>
+      <div data-role="content">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=Guindy,Chennai,India&amp;zoom=9&amp;size=288x200&amp;markers=No.1, SIDCO Industrial Estate, Guindy, NH45, Guindy, Chennai, Tamil Nadu&amp;markers=RMZ Millenia Business Park,Perungudi,Chennai&amp;sensor=false"
+          width="288" height="200">
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Divider
+              </li>
+              <li data-theme="c">
+                  <a href="#" data-transition="slide">
+                      Closest Stores
+                  </a>
+                <li data-theme="c">
+                  <a href="#" data-transition="slide">
+                      Vz Owned
+                  </a>
+                  
+              </li>
+            <li data-theme="c">
+                  <a href="#" data-transition="slide">
+                      Other Outlets
+                  </a>
+                  
+              </li>
+          </ul>
+      </div>
+  </div>
+
+  
+</body>
+</html>
