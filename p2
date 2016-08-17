@@ -16,8 +16,12 @@
   <script>
 
     $(function() {
-        
+       navigator.geolocation.getCurrentPosition(locationSuccess,function(){alert("did not work");})  
     });
+       function locationSuccess(location) {
+      //alert(location.coords.latitude+" "+location.coords.longitude);
+       
+       }
 
   </script>
 </head>
