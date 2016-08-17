@@ -1,0 +1,18 @@
+<div data-role="page" data-control-title="Near Me" id="page3">
+    <div data-theme="a" data-role="header">
+        <a data-role="button" data-direction="reverse" data-transition="slide"
+        href="#page1" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Button
+        </a>
+        <h3>
+            Header
+        </h3>
+    </div>
+    <div data-role="content">
+        <div id="googlemapsjs2" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
+        </div>
+        <a data-role="button" href="#page1">
+            Button
+        </a>
+    </div>
+</div>
